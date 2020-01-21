@@ -18,13 +18,13 @@ samples, guidance on mobile development, and a full API reference.
 ## Data Firebase
 
 ### User
-- [String] Nama
-- [Integer] Umur
-- [String] Jenis Kelamin
+- String Nama
+- Integer Umur
+- String Jenis Kelamin
 ### Jenis Kelamin
-- [String] nama
+- String nama
 
 ## Color
-- [Primary] 0xFFD51515
-- [Scaffold] 0xFF35ABAB
-- [NavBotton] 0xFF1E6ED3
+- Primary 0xFFD51515
+- Scaffold 0xFF35ABAB
+- NavBotton 0xFF1E6ED3
