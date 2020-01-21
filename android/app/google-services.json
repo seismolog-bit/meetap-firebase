@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "47919709153",
+    "firebase_url": "https://meetap-firebase.firebaseio.com",
+    "project_id": "meetap-firebase",
+    "storage_bucket": "meetap-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47919709153:android:6b0e8bf017cec55576f0a0",
+        "android_client_info": {
+          "package_name": "id.iritio.meetap_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47919709153-07r66k752hgqcp384cphtfaoa424p79s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.iritio.meetap_firebase",
+            "certificate_hash": "6294008a221a4e29a9e6c6255e255b75a77fbc77"
+          }
+        },
+        {
+          "client_id": "47919709153-aj4hec1q3gi2u4v2c5sdejsi81mmjbvr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPQ2ZTImaJaodGHHFFUos6oAn8fpgxsZ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47919709153-aj4hec1q3gi2u4v2c5sdejsi81mmjbvr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

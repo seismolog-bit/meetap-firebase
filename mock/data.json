@@ -1,0 +1,23 @@
+{
+    "counter": 2,
+    "jeniskelamin": {
+        "-LysaVyiJ3t7VeqXoD8a": {
+            "nama": "Laki-laki"
+        },
+        "-Lz04cQSLtWOZVrV1UTP": {
+            "nama": "Perempuan"
+        }
+    },
+    "user": {
+        "-LyUGMcrDrlTBOeumtgJ": {
+            "jeniskelamin": "Laki-laki",
+            "nama": "ilham",
+            "umur": 21
+        },
+        "-LyUJbPOGxThn7YrPvva": {
+            "jeniskelamin": "Laki-laki",
+            "nama": "faiz",
+            "umur": 23
+        }
+    }
+}
