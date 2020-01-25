@@ -1,5 +1,6 @@
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:meetap_firebase/utils/database_crud.dart';
 import 'package:meetap_firebase/utils/jenis_kelamin.dart';
 import 'package:meetap_firebase/utils/mahasiswa.dart';
@@ -53,8 +54,8 @@ class _AddDialogState extends State<AddDialog> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            getTextField('Nama', teName),
-            getTextField('Umur', teUmur),
+            getTextField('Nama', teName, false),
+            getTextField('Umur', teUmur, true),
             SizedBox(height: 5),
             Text('Jenis Kelamin'),
             buildRadio(),
@@ -68,11 +69,15 @@ class _AddDialogState extends State<AddDialog> {
     );
   }
 
-  Widget getTextField(String inputBoxName, TextEditingController inputBoxController){
+  Widget getTextField(String inputBoxName, TextEditingController inputBoxController, bool inputNumber){
     var loginBtn = Padding(
       padding: const EdgeInsets.all(5.0),
       child: TextFormField(
         controller: inputBoxController,
+        keyboardType: (inputNumber)? TextInputType.number : TextInputType.text,
+        inputFormatters: (inputNumber)? <TextInputFormatter> [
+           WhitelistingTextInputFormatter.digitsOnly
+        ]: null,
         decoration: InputDecoration(
           hintText: inputBoxName
         ),
